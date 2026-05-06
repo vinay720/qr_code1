@@ -2,7 +2,7 @@ import streamlit as st
 import qrcode
 from PIL import Image
 
-# page title
+
 st.title("QR code generator")
 data = st.text_input("enter url")
 
